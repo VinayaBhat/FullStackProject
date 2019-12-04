@@ -28,8 +28,8 @@ app.post('/', (req, res) => {
       service: 'gmail',
       secure: false,
       auth: {
-        user: 'xxxxxxxxxxxxxxxxxxxx@gmail.com',
-        pass: 'xxxxxxxxxxxxxx'
+        user: '@gmail.com',
+        pass: ''
       }
     });
     
@@ -37,7 +37,7 @@ app.post('/', (req, res) => {
       // sender's address
       from: req.body.email, 
       //receiver's address
-      to: 'shrivastavahoney611@gmail.com', 
+      to: 'shrivastavahoney611@gmail.com,amisankhesara@gmail.com,vinaya.dbhat@gmail.com',
       subject: 'Movie search',
       //content received from HTML form
       text: `${req.body.name} (${req.body.email}) says: ${req.body.message}`
@@ -55,7 +55,4 @@ app.post('/', (req, res) => {
     res.sendFile(path.join(__dirname+'/View/thankyou.html'));
 
   })
-  app.listen (3000,function()
- {
-  console.log("Application successfully started on PORT 3000");
-})
+  app.listen (8080);

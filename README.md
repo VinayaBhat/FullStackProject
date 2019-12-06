@@ -5,7 +5,9 @@ We have also included Upcoming movies which are yet to be released and Latest mo
 About page gives a brief description of the website and developers and the contact page lets the user send any comment or query to the 
 developers.
 </br>
-The website is currently deployed on GCP App Engine.
+</br>
+The website is currently deployed on GCP App Engine.</br>
 Go to the website: https://streamtimeapp-261018.appspot.com/
+</br>
 
 
